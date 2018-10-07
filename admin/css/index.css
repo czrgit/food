@@ -1,0 +1,190 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#top{
+	margin: 0 auto;
+	width: 1000px;
+	height: 200px;
+	background-image: url(../img/bj.jpg) ;
+}
+#t-text{
+	float: left;
+	width: 280px;
+	height: 35px;
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+}
+#nav-right{
+	float: right;
+	width: 200px;
+	height: 30px;
+	margin-right: 70px ;
+    margin-top: 10px;
+}
+#nav-right li{
+	list-style-type:none;
+	float: left;
+}
+#nav-right li a{
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+}
+#nav-right a:hover{
+	background: white;
+	color: black;
+	}
+	
+#content{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 1000px;
+	height: 980px;
+}
+#left{
+	width: 20%;
+	height: 980px;
+	background: #FFE4C4;
+	float: left;
+}
+#left li{
+		list-style-type:none;
+		float: left;
+	}
+#left ul img{
+			float: left;
+			margin-top: 32px;
+			margin-right: 5px;
+			margin-left: 30px;
+			width: 25px;
+			height: 20px;
+		}
+#left ul li a{
+	color: black;
+    height: 20px;
+    width: 100px;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-decoration: none;
+    display: block;
+}
+#left li a:hover{
+		background-color: yellowgreen;			
+		}
+#right{
+	margin-left: 1%;
+	width: 79%;
+	height: 980px;
+	float: left;
+	
+}
+/*========================right_main页面样式===================================*/
+#r-bt{
+	width: 100%;
+	height: 30px;
+	background: cornflowerblue;
+	line-height: 30px;
+	padding-left:20px ;
+}
+#r-bt a{	
+	margin-left: 40px;
+	color: black;
+	padding: 0 10px;
+    text-decoration: none;	
+	
+}
+#r-bt a:hover{
+		background-color: yellowgreen;			
+		}
+
+#r-content{
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	height: 900px;
+	
+	
+}
+#r-content i:before {
+		border: 2px solid black;
+		border-radius: 50%;
+		content: "";
+		display: block;
+		float: left;
+		height: 5px;
+		margin: 8px 8px 0px 2px;
+		vertical-align: middle;
+		width: 5px;  
+				}
+
+.r-title{
+	width: 100%;
+	float: left;
+}
+.r1{
+	width: 200px;
+	padding: 5 10px;
+	float: left;
+}
+.r2{
+	padding: 5 10px;
+	float: left;
+}
+#an{
+	margin-top: 10px;
+	width: 100%;	
+	float: left;
+	text-align: center;
+	background: gray;
+}
+#an input{
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+#aj:hover{
+	border: 1px solid black;	
+	
+}
+.r-wz{
+	width: 100%;
+	float: left;
+}
+.z1{
+	width: 200px;
+	padding: 5 10px;
+	float: left;
+}
+.z2{
+	padding: 5 10px;
+	float: left;
+}
+textarea{resize:none;}
+
+footer{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	margin-top: 25px;
+	background-color:#CCCCCC;			
+		}
+#bq{
+	height: 20px;
+	width: 1000px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 14px;
+	color:#a6a6a6;
+		}		

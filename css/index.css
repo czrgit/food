@@ -1,0 +1,460 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			/*============导航条样式开始=================*/
+			nav{
+				left:0px;
+            	width:100%;
+				background: #333;
+				position: fixed;/*怎样把一个div可以随着滚动条变化而始终保持在最上端*/
+				z-index: 8;
+			}
+			.nav li{
+				list-style-type:none;
+				float: left;
+			}
+			.nav li  a{
+				font-size: 15px;
+			    color: #ccc;
+			    text-decoration: none;
+			    padding: 0 10px;
+			    height: 40px;
+			    line-height: 40px;
+			    display: inline-block;
+			}
+			.nav a:hover{
+				background: black;
+				color: white;
+			}
+			#nav-right{
+				float: right;
+				margin-right: 70px ;
+			}
+			/*============导航条样式结束=================*/
+			
+			/*============新导航条样式开始=================*/
+			header{
+				margin: 0 auto;
+				width: 1000px;
+				height: 450px;				
+			}
+			header #header-top{
+				width: 1000px;
+				height: 70px;			
+			}
+			#login-img{
+				padding-top: 40px;
+				width: 100px;
+				height: 70px;
+				float: left;
+				cursor: pointer;
+			}
+			#header-nav{
+				width: 600px;
+				height: 70px;
+				padding-top: 60px;
+				margin-left: 240px;
+			}
+			 li{
+				list-style-type:none;
+				float: left;
+			}
+			#header-nav ul li a{
+					font-size: 20px;
+					color:black;
+					text-decoration: none;
+					padding: 0 20px;			    		
+			}
+			#header-nav ul li a:hover{
+				color:red;
+			}
+			#header-nav #color{
+				color: red;
+			}
+			/*============新导航条样式结束=================*/
+			
+			/*============内容样式和焦点幻灯片开始=================*/
+			#content{
+				float: left;
+				width: 1000px;
+				height: 370px;
+			}
+			#left-content{
+				margin: 0 auto;
+				float: left;
+				width: 250px;
+				height: 350px;
+				border-right: 10px solid white;
+				background-color: #A6A5A9;
+			}
+			#right-content{
+				float: left;
+				width: 740px;
+				height: 350px;
+				
+			}
+			
+			#left-content ul li a{
+				    color: #fff;
+				    height: 20px;
+				    width: 150px;
+				    font-size: 20px;
+				    line-height: 20px;
+				    padding: 15px 20px;
+				    margin-top: 15px;
+				    margin-left: 30px;
+				    text-decoration: none;
+				    display: block;
+				    
+			}
+			#left-content li a:hover{
+				background-color: yellowgreen;
+			
+			}
+			#left-content ul img   {
+				float: left;
+				margin-top: 32px;
+				margin-right: 5px;
+				margin-left: 30px;
+				width: 25px;
+				height: 20px;
+			}
+		
+			/*============内容样式和焦点幻灯片结束=================*/
+			
+			/*============文章开始=================*/
+			section{
+				margin: 0 auto;
+				width: 1000px;
+				height: 370px;
+			}
+			#section-1{
+				width: 320px;
+				height: 370px;
+				
+				float: left;
+				
+			}
+			#section-2{
+				width: 320px;
+				height: 370px;
+				float: left;
+				margin-left: 20px;
+			}
+			#section-3{
+				width: 320px;
+				height: 370px;
+				float: right;
+				margin-left: 20px;
+				
+			}
+			.p1{
+				color: red;
+				font-size: 20px;
+				border-bottom: 2px solid red;				
+				float: left;
+				cursor: pointer;
+			}
+			.p2{
+				float: right;				
+				height: 27px;
+				width: 270px;
+				line-height: 30px;
+				border-bottom: 1px solid bisque;
+			}
+			.p2 a{
+				float: right;
+				text-decoration: none;
+				color: black;
+			}
+			.s-img{
+				margin-top: 40px;
+			}
+			.s-img img{
+				width: 320px;
+				height: 150px;
+			}
+			/*============文章图片结束=================*/
+			.wenzhang{
+					height: 160px;
+				    width: 320px;
+					clear: both;
+			}
+			.wenzhang ul li{
+						height: 30px;
+				     	width: 300px;
+			}
+		     .wenzhang ul li a{	     						 
+				    font-size: 15px;
+				    line-height: 25px;
+				    padding-top: 10px;
+				    padding-left: 0px;
+			        color: #000000;        
+				    text-decoration: none;
+				    display:inline-block ;
+		     }
+		      .wenzhang li a:before {
+				    border: 2px solid #ccc;
+				    border-radius: 50%;
+				    content: "";
+				    display: block;
+				    float: left;
+				    height: 5px;
+				    margin: 8px 8px 0 2px;
+				    vertical-align: middle;
+				    width: 5px;  
+				}
+				.wenzhang a:hover{
+					color: red;
+				}
+				/*鼠标经过before伪元素变色*/
+				.wenzhang a:hover::before {
+		      		border: 2px solid red;
+		      		}
+			footer{
+				margin: 0 auto;
+				width: 1000px;
+				height: 100px;
+				margin-top: 25px;
+				background-color:#CCCCCC;
+				
+			}
+			#bq{
+				height: 20px;
+				width: 1000px;
+				text-align: center;
+				padding-top: 40px;
+				font-size: 14px;
+				color:#a6a6a6;
+			}
+		
+/*=================================================用户注册样式================================*/
+	#con{
+		width: 1000px;
+		height: 500px;
+		margin: 0 auto;
+		border-radius: 10px;		
+	}		
+	#bk{
+		width: 1000px;
+		height: 500px;	
+		padding-top: 100px;
+		border-radius: 5px;
+		background-color: darkgrey;		
+	}
+	caption{
+		font-size:20px;		
+		}
+	.td1{
+		height: 40px;
+		width: 200px;
+		background-color: white;
+		font-size: 15px;
+		text-align: center;
+	}	
+	 #bk td a:before {
+				    border: 2px solid red;
+				    border-radius: 50%;
+				    content: "";
+				    display: block;
+				    float: left;
+				    height: 5px;
+				    margin: 8px 8px 0 2px;
+				    vertical-align: middle;
+				    width: 5px;  
+				}
+	.td2{
+		height: 30px;
+		width: 800px;		
+		background-color: floralwhite;
+		
+	}
+	.wbk{
+		width: 200px;
+		height: 20px;
+	}
+	#anniu{
+		margin-top: 10px;
+		width: 1000px;
+		text-align: center;
+	}
+	#anniu input{
+		width: 70px;
+		height: 33px;
+		font-size: 18px;
+	}
+	#anniu  input:hover{
+		border: 1px solid red;
+		background: black;
+		color: white;
+		
+	}
+
+/*=================================================用户注册样式结束================================*/	
+
+/*=================================================五谷注册样式================================*/
+#g-header{
+		margin: 0 auto;
+		width: 1000px;							
+		}
+		#g-header-top{
+			width: 1000px;
+			height: 70px;			
+		}
+		#g-login-img{
+			padding-top: 40px;
+			width: 100px;
+			height: 70px;
+			float: left;
+			cursor: pointer;
+		}
+		#g-header-nav{
+			width: 600px;
+			height: 70px;
+			padding-top: 60px;
+			margin-left: 240px;	
+		}	
+		#g-header-nav ul li a{
+			font-size: 20px;
+			color:black;
+			text-decoration: none;
+			padding: 0 20px;			    		
+			}
+		#g-header-nav ul li a:hover{
+			color:red;
+			}
+		#g-header-nav #color{
+			color: red;
+			}		
+
+#g-content{
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 1000px;
+	height:980px;
+
+}
+#g-dh{
+	width: 1000px;
+	height: 30px;
+	
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	
+}
+#g-dh ul li a{
+	margin-left: 100px;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	padding: 0 20px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;	
+}
+#g-dh ul li :hover{
+			color:white;	
+			background:#A6A5A9;
+			}
+
+.g-img{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	
+}
+.g-img img{
+	width: 300px;
+	height: 200px;
+	border:2px solid black;
+}
+#g-main{
+	margin-top: 20px;
+	float: left;
+	height: 750px;
+	width: 1000px;
+	
+}
+/*=====================================g-main内容样式=========================================================*/
+#m-bt{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	text-align: center;
+	background: antiquewhite;
+}
+#m-nr{
+	width: 998px;
+	height: 698px;
+	margin-top: 10px;
+	border: 1 solid black;
+	
+}
+#m-img{	
+	width: 400px;
+	height: 280px;
+	float: left;
+	
+	
+}
+#m-img img{
+	margin: 10px;
+	width: 380px;
+	height: 260px;
+}
+#m-wenz{
+	float: left;
+	margin: 10px;
+	height: 260px;
+	width: 570px;
+	
+}
+#m-gs{
+	float: left;
+	width:998px ;
+	height: 420;
+	
+}
+#m-pingyin{
+	color:#919491;
+	font-size: 13px;
+}
+#m-wz1{
+	font-size: 30px;
+	margin-right: 15px;
+}
+.m-wz{
+	width: 570px;
+	height: 20px;
+}
+.m-zw{
+	width: 70px;
+	height: 20px;
+	color: #A6A5A9;
+	margin-right: 10px;
+	float: left;
+	font-size: 15px;
+}
+.m-zw2{
+	width: 250px;
+	height: 20px;
+	float: left;
+
+}
+
+
+.m-ml{
+	margin-top: 10px;
+	font-size: 20px;
+	border-left: 12px solid blue;
+	display: inline-block;
+}
+.m-wz4{
+	text-indent:2em;
+	margin-top: 10px;
+	font-size: 14px;
+}
